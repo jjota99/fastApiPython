@@ -1,7 +1,7 @@
 # fastApiPython
 
 ### Executar o primeiro comando para poder consumir os endpoints e subir o projeto
-## uvicorn main:app --reload
+## uvicorn main:app --reload /  uvicorn main.py --reload 
 
 ### baseUrl é http://127.0.0.1:8000 
 
