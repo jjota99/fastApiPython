@@ -1,12 +1,14 @@
 # fastApiPython
 
-### Executar o primeiro comando para poder consumir os endpoints e subir o projeto
-## uvicorn main:app --reload  ou  uvicorn main.py --reload 
+## Executar o primeiro comando para poder consumir os endpoints e subir o projeto
 
-### baseUrl é http://127.0.0.1:8000 
+### uvicorn main:app --reload  ou  uvicorn main.py --reload 
+ 
+### Primeiro endpoint (/)
+ Primeiro endpoint root, para apenas retornar o hello world.
 
-### Primeiro endpoint root, para apenas retornar o hello world.
+ ### Segundo endpoint(/horario) 
+ Solicitado pelo teste para retornar o horário atual.
 
-### Segundo endpoint (/horario) que foi pedido para retornar o horário atual.
-
-### Terceiro endpoint (/analytics) ja tendo a criação de um model(iterface), depois dados inseridos de acordo com a interface num array e por fim o endpoint retornando um array de objetos.
+### Terceiro endpoint (/analytics) 
+Craição de interface com Model, depois dados inseridos de acordo com a interface num array e por fim o endpoint retornando um array de objetos.
