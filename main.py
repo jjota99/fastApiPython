@@ -19,3 +19,19 @@ current_time = now.strftime("%H:%M:%S")
 def horario():
     return {current_time}
 
+# criando model
+class Analise(BaseModel):
+    diabeticos: int
+    hipertensos: int
+    quadrimestre: str
+
+# criando base de dados
+dados_analise = [
+    Analise(diabeticos=125, hipertensos=111, quadrimestre="Q1/2021"),
+    Analise(diabeticos=91, hipertensos=73, quadrimestre="Q2/2021"),
+    Analise(diabeticos=60, hipertensos=58, quadrimestre="Q3/2021"),
+]
+
+@app.get("/analytics")
+def get_todas_analises():
+    return dados_analise
