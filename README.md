@@ -9,6 +9,3 @@
 
  ### Segundo endpoint(/horario) 
  Solicitado pelo teste para retornar o horário atual.
-
-### Terceiro endpoint (/analytics) 
-Craição de interface com Model, depois dados inseridos de acordo com a interface num array e por fim o endpoint retornando um array de objetos.
